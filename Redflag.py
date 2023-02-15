@@ -13,9 +13,9 @@ WEBSITE_URL = "https://red.flag.domains/posts/" + one_day_ago
 print(WEBSITE_URL)
 
 # Replace <YOUR_BOT_TOKEN> with your Telegram bot token
-bot = telegram.Bot(token='6044221978:AAEmdmPrZN8qH251-8g6Go-38T_MPS62uM8')
+bot = telegram.Bot(token='##############################')
 # Replace <CHAT_ID> with the ID of the chat you want to send the message to
-chat_id = '1869680052'
+chat_id = '########'
 
 async def check_for_word(word):
     response = requests.get(WEBSITE_URL)
