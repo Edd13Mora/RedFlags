@@ -25,7 +25,7 @@ async def check_for_word(word):
             await bot.send_message(chat_id=chat_id, text=message)
             print("Message sent to Telegram.")
         else:
-            print(f"The word '{word}' was not found on the website {WEBSITE_URL}.")
+            print(f"Nothing")
     else:
         print(f"Could not connect to the website {WEBSITE_URL}.")
 
