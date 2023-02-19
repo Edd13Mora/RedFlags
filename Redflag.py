@@ -21,7 +21,7 @@ async def check_for_word(word):
     response = requests.get(WEBSITE_URL)
     if response.status_code == 200:
         if word in response.text:
-            message = f"Warning a potential domain similare to urs '{word}' was recently registred, make sure to not be victime of phishing attacks, check the source here>
+            message = f"Warning a potential domain similare to urs '{word}' was recently registred, make sure to not be victime of phishing attacks, check the source here>"
             await bot.send_message(chat_id=chat_id, text=message)
             print("Message sent to Telegram.")
         else:
